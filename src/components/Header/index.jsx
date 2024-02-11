@@ -1,6 +1,8 @@
 import React from 'react';
 import style from './Header.module.scss';
 
+const chapters = ['Главная', 'Расписание', 'Прошедшие игры', 'О нас'];
+
 export default function Header() {
   return (
     <div className={style.header}>
@@ -12,11 +14,11 @@ export default function Header() {
       </div>
       <div className={style.header_media}>
         <div>
-          <img src="/img/media_vk.svg" alt="Vk" />
-          <img src="/img/media_whatsapp.svg" alt="WhatsApp" />
+          <img className={style.media} src="/img/media_vk.svg" alt="Vk" />
+          <img className={style.media} src="/img/media_whatsapp.svg" alt="WhatsApp" />
         </div>
         <div className={style.header_button}>
-          <img src="/img/location.svg" alt="Location" />
+          <img className={style.location} src="/img/location.svg" alt="Location" />
           <p className={style.header_button_citys}>Москва</p>
         </div>
       </div>
