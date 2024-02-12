@@ -9,9 +9,9 @@ export default function Maininfo() {
         <p>Делаем викторины по вашим любимым вселенным и не только!</p>
       </div>
       <div>
-        <img />
-        <img />
-        <img />
+        <img src="/img/logo.svg" alt="Logo" />
+        <img src="/img/oneelem.svg" alt="one elemnt" />
+        <img src="/img/twoelem.svg" alt="two element" />
       </div>
     </div>
   );
