@@ -13,7 +13,7 @@ export default function Maininfo() {
             Делаем викторины по вашим любимым <br /> вселенным и не только!
           </p>
         </div>
-        <button>Расписание игр</button>
+        <div className={style.button_main}>Расписание игр</div>
       </div>
       <div>
         <img src="/img/logo.svg" alt="Logo" />
