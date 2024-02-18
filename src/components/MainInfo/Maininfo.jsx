@@ -15,10 +15,10 @@ export default function Maininfo() {
         </div>
         <div className={style.button_main}>Расписание игр</div>
       </div>
-      <div>
-        <img src="/img/logo.svg" alt="Logo" />
-        <img src="/img/oneelem.svg" alt="one elemnt" />
-        <img src="/img/twoelem.svg" alt="two element" />
+      <div className={style.main_allimg}>
+        <img className={style.main_imagl1} src="/img/logo.svg" alt="Logo" />
+        <img className={style.main_imagl2} src="/img/oneelem.svg" alt="one elemnt" />
+        <img className={style.main_imagl2} src="/img/twoelem.svg" alt="two element" />
       </div>
     </div>
   );
