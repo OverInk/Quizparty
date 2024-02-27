@@ -1,19 +1,38 @@
 import React from 'react';
 
+const quizs = [
+  {
+    title: 'Title1',
+    imgURL: './img/product1.svg',
+    description: 'информация о квизе 1',
+  },
+  {
+    title: 'Title2',
+    imgURL: './img/product2.svg',
+    description: 'информация о квизе 2',
+  },
+];
+
 export default function Cards() {
   return (
     <div>
       <div>
-        <img src="./img/product2.svg" alt="Logo" />
+        <img src="./img/product1.svg" alt="Logo" />
       </div>
       <div>
         <div>
-          <h2></h2>
-          <p></p>
-        </div>
-        <div>
-          <b></b>
-          <div></div>
+          <h2>
+            27 февраля (ВТ) 20:00 (Золберг) Телеквиз: Гарри Поттер №1 [ЧЕМПИОНАТ ПО ГП. Зимний сезон
+            2023-2024. Игра №10].
+          </h2>
+          <p>600 рублей / человек</p>
+          <p>
+            Вас ждут аналоги телепередач: «Что? Где? Когда?», «Своя игра», «Поле чудес», «100 к 1»,
+            «Где логика?», «Слабое звено», «О, счастливчик» и, конечно же, «Угадай мелодию»! И все
+            вопросы будут только по книгам и фильмам о Гарри Поттере!
+          </p>
+          <b>Место проведения:</b>
+          <div>ЗАПИСАТЬСЯ НА ИГРУ</div>
         </div>
       </div>
     </div>
