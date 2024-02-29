@@ -1,4 +1,5 @@
 import React from 'react';
+import style from './Cards.module.scss';
 
 const quizs = [
   {
@@ -27,11 +28,11 @@ const quizs = [
 
 export default function Cards() {
   return (
-    <div>
+    <div className={style.cards}>
       {quizs.map((quiz) => (
         <div>
           <div>
-            <img src={quiz.imgURL} alt="Logo" />
+            <img className={style.cards_imgs} src={quiz.imgURL} alt="Logo" />
           </div>
           <div>
             <div>

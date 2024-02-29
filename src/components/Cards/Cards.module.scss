@@ -1,0 +1,9 @@
+.cards {
+  background-image: linear-gradient(to bottom, rgba(27, 29, 33, 1), rgba(27, 29, 33, 1));
+  &_imgs {
+    width: 570px;
+    height: 319px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+  }
+}

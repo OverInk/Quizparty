@@ -1,8 +1,6 @@
 import React from 'react';
 import style from './Header.module.scss';
 
-const chapters = ['Главная', 'Расписание', 'Прошедшие игры', 'О нас'];
-
 export default function Header() {
   return (
     <div className={style.header}>
