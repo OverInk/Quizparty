@@ -29,22 +29,25 @@ const quizs = [
 export default function Cards() {
   return (
     <div className={style.cards}>
-      {quizs.map((quiz) => (
-        <div>
-          <div>
-            <img className={style.cards_imgs} src={quiz.imgURL} alt="Logo" />
-          </div>
-          <div>
+      <h1>Ближайщие игры</h1>
+      <div className={style.cards_fullboxs}>
+        {quizs.map((quiz) => (
+          <div className={style.cards_box}>
             <div>
-              <h2>{quiz.title}</h2>
-              <p>{quiz.price}</p>
-              <p>{quiz.description}</p>
-              <b>Место проведения:</b>
-              <div>ЗАПИСАТЬСЯ НА ИГРУ</div>
+              <img className={style.cards_imgs} src={quiz.imgURL} alt="Logo" />
+            </div>
+            <div>
+              <div>
+                <h2>{quiz.title}</h2>
+                <p>{quiz.price}</p>
+                <p>{quiz.description}</p>
+                <b>Место проведения:</b>
+                <div>ЗАПИСАТЬСЯ НА ИГРУ</div>
+              </div>
             </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 }
