@@ -37,12 +37,14 @@ export default function Cards() {
               <img className={style.cards_imgs} src={quiz.imgURL} alt="Logo" />
             </div>
             <div>
-              <div>
+              <div className={style.cards_info}>
                 <h2>{quiz.title}</h2>
                 <p>{quiz.price}</p>
                 <p>{quiz.description}</p>
-                <b>Место проведения:</b>
-                <div>ЗАПИСАТЬСЯ НА ИГРУ</div>
+                <p>Место проведения:</p>
+                <div>
+                  <h3>Записаться на игру</h3>
+                </div>
               </div>
             </div>
           </div>
