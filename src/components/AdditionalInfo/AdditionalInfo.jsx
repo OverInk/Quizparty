@@ -1,5 +1,5 @@
 import React from 'react';
 
 export default function AdditionalInfo() {
-  return <div>AdditionalInfo</div>;
+  return <div>AdditionalInfo1</div>;
 }
