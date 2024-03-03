@@ -5,7 +5,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    align-items: center;
+    //  align-items: center;
     justify-content: flex-start;
   }
   h1 {
@@ -58,4 +58,12 @@
       }
     }
   }
+}
+
+.last_edit {
+  width: 70%;
+  padding: 3px 5px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  align-self: center;
 }
