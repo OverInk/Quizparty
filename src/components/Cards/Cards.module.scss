@@ -8,12 +8,6 @@
     //  align-items: center;
     justify-content: flex-start;
   }
-  h1 {
-    margin: 0 0 70px 200px;
-    font-size: 64px;
-    line-height: 74px;
-    font-weight: 700;
-  }
   &_box {
     margin: 0 0 100px 200px;
     width: 570px;
@@ -60,6 +54,10 @@
   }
 }
 
+.champ {
+  position: absolute;
+  right: 350px;
+}
 .last_edit {
   width: 70%;
   padding: 3px 5px;

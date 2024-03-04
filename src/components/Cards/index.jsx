@@ -32,7 +32,8 @@ const quizs = [
 export default function Cards() {
   return (
     <div className={style.cards}>
-      <h1>Ближайщие игры</h1>
+      <img className={style.champ} src="/img/champ.svg" alt="кубок" />
+      <h2>Ближайщие игры</h2>
       <div className={style.cards_fullboxs}>
         {quizs.map((quiz) => (
           <div className={style.cards_box}>
@@ -41,7 +42,7 @@ export default function Cards() {
             </div>
             <div>
               <div className={style.cards_info}>
-                <h2>{quiz.title}</h2>
+                <h3>{quiz.title}</h3>
                 <p>{quiz.price}</p>
                 <p>{quiz.description}</p>
                 <p>Место проведения:</p>

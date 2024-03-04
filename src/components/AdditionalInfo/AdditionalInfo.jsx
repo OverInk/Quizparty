@@ -1,5 +1,25 @@
 import React from 'react';
 
 export default function AdditionalInfo() {
-  return <div>AdditionalInfo1</div>;
+  return (
+    <div>
+      <h2></h2>
+      <div>
+        <div>
+          <div>
+            <h3>День Рождения со Смузи!</h3>
+            <p>
+              Хотите сделать сюрприз имениннику? Представьте его чувства, когда его неожиданно
+              поздравит ведущий, зал поаплодирует, а потом его пригласят на сцену и вручат подарок!
+              Такой сюрприз ему еще никто не делал!
+            </p>
+          </div>
+          <div>Узнать больше</div>
+        </div>
+        <div>
+          <img src="/img/present.svg" alt="День рождение со Смузи" />
+        </div>
+      </div>
+    </div>
+  );
 }
