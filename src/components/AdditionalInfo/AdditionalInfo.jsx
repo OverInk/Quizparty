@@ -1,4 +1,5 @@
 import React from 'react';
+import style from './AdditionalInfo.module.scss';
 
 const quizs = [
   {
@@ -30,9 +31,9 @@ const quizs = [
 
 export default function AdditionalInfo() {
   return (
-    <div>
+    <div className={style.additional}>
       <h2>Что еще ждет вас со Смузи?</h2>
-      <div>
+      <div className={style.additional_box}>
         <div>
           <div>
             <h3>День Рождения со Смузи!</h3>

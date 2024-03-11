@@ -1,0 +1,8 @@
+.additional {
+  background-image: linear-gradient(to top, rgba(27, 29, 33), rgb(40, 7, 36));
+
+  &_box {
+    display: flex;
+    flex-direction: row;
+  }
+}
