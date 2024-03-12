@@ -37,13 +37,15 @@ export default function AdditionalInfo() {
         <div>
           <div>
             <h3>День Рождения со Смузи!</h3>
-            <p>
+            <p className={style.additional_text}>
               Хотите сделать сюрприз имениннику? Представьте его чувства, когда его неожиданно
               поздравит ведущий, зал поаплодирует, а потом его пригласят на сцену и вручат подарок!
               Такой сюрприз ему еще никто не делал!
             </p>
           </div>
-          <div>Узнать больше</div>
+          <div className={style.additional_button}>
+            <p>Узнать больше</p>
+          </div>
         </div>
         <div>
           <img src="/img/present.svg" alt="День рождение со Смузи" />

@@ -5,4 +5,33 @@
     display: flex;
     flex-direction: row;
   }
+
+  &_text {
+    font-size: 20px;
+    line-height: 1.55;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  &_button {
+    display: flex;
+    flex-direction: row;
+    width: 130px;
+    padding: 6px 40px;
+    border-radius: 15px;
+    background-image: linear-gradient(130deg, rgb(68, 0, 118) 8%, rgb(201, 2, 103) 100%);
+  }
+}
+
+h3 {
+  font-size: 34px;
+  line-height: 1.55;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 17px;
+  line-height: 1.55;
+  font-weight: 600;
 }
