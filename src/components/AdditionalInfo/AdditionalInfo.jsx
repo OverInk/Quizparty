@@ -24,24 +24,26 @@ export default function AdditionalInfo() {
   return (
     <div className={style.additional}>
       <h2>Что еще ждет вас со Смузи?</h2>
-      <div className={style.additional_box}>
-        <div>
+      {quizs.map((quiz) => (
+        <div className={style.additional_box}>
           <div>
-            <h3>День Рождения со Смузи!</h3>
-            <p className={style.additional_text}>
-              Хотите сделать сюрприз имениннику? Представьте его чувства, когда его неожиданно
-              поздравит ведущий, зал поаплодирует, а потом его пригласят на сцену и вручат подарок!
-              Такой сюрприз ему еще никто не делал!
-            </p>
+            <div>
+              <h3>{quiz.title}</h3>
+              <p className={style.additional_text}>
+                Хотите сделать сюрприз имениннику? Представьте его чувства, когда его неожиданно
+                поздравит ведущий, зал поаплодирует, а потом его пригласят на сцену и вручат
+                подарок! Такой сюрприз ему еще никто не делал!
+              </p>
+            </div>
+            <div className={style.additional_button}>
+              <p>Узнать больше</p>
+            </div>
           </div>
-          <div className={style.additional_button}>
-            <p>Узнать больше</p>
+          <div>
+            <img src="/img/present.svg" alt="День рождение со Смузи" />
           </div>
         </div>
-        <div>
-          <img src="/img/present.svg" alt="День рождение со Смузи" />
-        </div>
-      </div>
+      ))}
     </div>
   );
 }
