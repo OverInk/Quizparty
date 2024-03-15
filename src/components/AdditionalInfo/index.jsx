@@ -28,7 +28,7 @@ export default function AdditionalInfo() {
         <div className={style.additional_box}>
           <div>
             <div>
-              <h3>{quiz.title}</h3>
+              <h4>{quiz.title}</h4>
               <p className={style.additional_text}>
                 Хотите сделать сюрприз имениннику? Представьте его чувства, когда его неожиданно
                 поздравит ведущий, зал поаплодирует, а потом его пригласят на сцену и вручат
