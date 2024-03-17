@@ -4,19 +4,15 @@ import style from './AdditionalInfo.module.scss';
 const quizs = [
   {
     title: 'День Рождения со Смузи!',
-    imgURL: './img/product1.svg',
-    price: '600 руб/чел',
+    imgURL: './img/present.svg',
     description:
       'Хотите сделать сюрприз имениннику? Представьте его чувства, когда его неожиданно поздравит ведущий, зал поаплодирует, а потом его пригласят на сцену и вручат подарок! Такой сюрприз ему еще никто не делал!',
-    place: 'Паб «Золберг» (1-й Люсиновский пер., 3Б, метро «Добрынинская»)',
   },
   {
     title: 'Корпоративные игры!',
-    imgURL: './img/product2.svg',
-    price: '700 руб/чел',
+    imgURL: './img/puzzle.svg',
     description:
       'Хотите отдохнуть большим коллективом так, чтобы все вспоминали тот вечер и со вздохом поговаривали:«Это было - огонь. Вот бы повторить!»? Мы сделаем это.',
-    place: 'Паб «Золберг» (1-й Люсиновский пер., 3Б, метро «Добрынинская»)',
   },
 ];
 
@@ -29,18 +25,14 @@ export default function AdditionalInfo() {
           <div>
             <div>
               <h4>{quiz.title}</h4>
-              <p className={style.additional_text}>
-                Хотите сделать сюрприз имениннику? Представьте его чувства, когда его неожиданно
-                поздравит ведущий, зал поаплодирует, а потом его пригласят на сцену и вручат
-                подарок! Такой сюрприз ему еще никто не делал!
-              </p>
+              <p className={style.additional_text}>{quiz.description}</p>
             </div>
             <div className={style.additional_button}>
               <p>Узнать больше</p>
             </div>
           </div>
           <div>
-            <img src="/img/present.svg" alt="День рождение со Смузи" />
+            <img src={quiz.imgURL} alt="День рождение со Смузи" />
           </div>
         </div>
       ))}

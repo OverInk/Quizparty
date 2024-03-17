@@ -1,9 +1,26 @@
 .additional {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 300px;
+
   background-image: linear-gradient(to top, rgba(27, 29, 33), rgb(40, 7, 36));
 
   &_box {
     display: flex;
     flex-direction: row;
+    margin-bottom: 100px;
+    padding: 25px;
+    border: 0.5px solid rgb(30, 29, 29);
+    border-radius: 15px;
+    background-image: linear-gradient(
+      98deg,
+      rgba(27, 29, 33, 1) 0%,
+      rgba(86, 74, 125, 1) 31%,
+      rgba(27, 29, 33, 1) 96%
+    );
+    box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, 0.3);
   }
 
   &_text {
@@ -18,6 +35,7 @@
     flex-direction: row;
     width: 130px;
     padding: 6px 40px;
+    box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, 0.3);
     border-radius: 15px;
     background-image: linear-gradient(130deg, rgb(68, 0, 118) 8%, rgb(201, 2, 103) 100%);
   }
