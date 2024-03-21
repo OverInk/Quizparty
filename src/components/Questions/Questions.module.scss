@@ -1,5 +1,16 @@
 .questions {
+  padding: 100px 300px;
   background-image: linear-gradient(to bottom, rgb(27, 29, 33), rgb(40, 7, 36));
+
+  &_box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    padding: 40px;
+    border: 0.5px solid rgb(30, 29, 29);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, 0.3);
+  }
 
   &_title {
     font-size: 24px;

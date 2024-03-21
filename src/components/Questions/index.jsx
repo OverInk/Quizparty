@@ -38,7 +38,7 @@ export default function Questions() {
         //       <img src={quiz.imgURL} alt="День рождение со Смузи" />
         //     </div>
         //   </div>
-        <div className={style.questions}>
+        <div className={style.questions_box}>
           <div className={style.questions_title}>{quiz.title}</div>
           <div className={style.questions_text}>{quiz.description}</div>
         </div>
