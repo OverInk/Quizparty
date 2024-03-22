@@ -39,7 +39,12 @@ export default function Questions() {
         //     </div>
         //   </div>
         <div className={style.questions_box}>
-          <div className={style.questions_title}>{quiz.title}</div>
+          <div className={style.questions_button}>
+            <div className={style.questions_title}>{quiz.title}</div>
+            <div>
+              <img src="./img/show_button.svg" />
+            </div>
+          </div>
           <div className={style.questions_text}>{quiz.description}</div>
         </div>
       ))}

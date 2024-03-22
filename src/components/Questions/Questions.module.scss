@@ -1,5 +1,5 @@
 .questions {
-  padding: 100px 300px;
+  padding: 0px 300px;
   background-image: linear-gradient(to bottom, rgb(27, 29, 33), rgb(40, 7, 36));
 
   &_box {
@@ -13,6 +13,7 @@
   }
 
   &_title {
+    padding-bottom: 50px;
     font-size: 24px;
     line-height: 1.35;
   }
@@ -21,5 +22,11 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.55;
+  }
+
+  &_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
