@@ -41,8 +41,8 @@ export default function Questions() {
         <div className={style.questions_box}>
           <div className={style.questions_button}>
             <div className={style.questions_title}>{quiz.title}</div>
-            <div>
-              <img src="./img/show_button.svg" />
+            <div className={style.questions_boximg}>
+              <img className={style.questions_img} src="./img/show_button.svg" />
             </div>
           </div>
           <div className={style.questions_text}>{quiz.description}</div>

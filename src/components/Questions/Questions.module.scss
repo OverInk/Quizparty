@@ -9,9 +9,22 @@
     padding: 40px;
     border: 0.5px solid rgb(30, 29, 29);
     border-radius: 15px;
+    background-image: linear-gradient(
+      98deg,
+      rgba(27, 29, 33, 1) 0%,
+      rgb(99, 98, 100) 31%,
+      rgba(27, 29, 33, 1) 96%
+    );
     box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, 0.3);
   }
 
+  &_img {
+    padding: 16px;
+    background-color: #515151;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+  }
   &_title {
     padding-bottom: 50px;
     font-size: 24px;
