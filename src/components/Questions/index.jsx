@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import style from './Questions.module.scss';
+import './../../index.scss';
 
 const quizs = [
   {
@@ -20,6 +21,8 @@ const quizs = [
 ];
 
 export default function Questions() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className={style.questions}>
       <h2>Часто задаваемые вопросы</h2>
@@ -41,11 +44,13 @@ export default function Questions() {
         <div className={style.questions_box}>
           <div className={style.questions_button}>
             <div className={style.questions_title}>{quiz.title}</div>
-            <div className={style.questions_boximg}>
+            <div
+              className={isOpen ? 'questions_boximgActive' : 'questions_boximg'}
+              onClick={() => setIsOpen(!isOpen)}>
               <img className={style.questions_img} src="./img/show_button.svg" />
             </div>
           </div>
-          <div className={style.questions_text}>{quiz.description}</div>
+          {isOpen && <div className={style.questions_text}>{quiz.description}</div>}
         </div>
       ))}
     </div>
