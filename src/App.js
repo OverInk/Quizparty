@@ -4,6 +4,7 @@ import Maininfo from './components/MainInfo/Maininfo';
 import Cards from './components/Cards';
 import AdditionalInfo from './components/AdditionalInfo';
 import Questions from './components/Questions';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Cards />
       <AdditionalInfo />
       <Questions />
+      <Footer />
     </div>
   );
 }
