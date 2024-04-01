@@ -13,14 +13,14 @@ export default function Footer() {
             <li>Прошедшие игры</li>
             <li>О нас</li>
           </ul>
-          <div>
-            <img src="./img/footer_vk.svg" />
+          <div className={style.footer_media}>
+            <img style={{ paddingRight: 10 }} src="./img/footer_vk.svg" />
             <img src="./img/footer_whatsapp.svg" />
           </div>
-          <div>Оставить отзыв</div>
+          <div className={style.footer_button}>Оставить отзыв</div>
         </div>
       </div>
-      <div>Политика конфиденциальности</div>
+      <div className={style.footer_bottom}>Политика конфиденциальности</div>
     </div>
   );
 }
