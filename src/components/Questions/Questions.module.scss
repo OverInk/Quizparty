@@ -1,12 +1,12 @@
 .questions {
-  padding: 0px 300px 40px 300px;
+  padding: 0px 400px 20px 400px;
   background-image: linear-gradient(to bottom, rgb(27, 29, 33), rgb(40, 7, 36));
 
   &_box {
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
-    padding: 20px 40px;
+    padding: 13px 40px;
     border: 0.5px solid rgb(30, 29, 29);
     border-radius: 15px;
     background-image: linear-gradient(
