@@ -36,7 +36,7 @@ export default function Questions() {
             <div
               className={isOpen ? 'questions_boximgActive' : 'questions_boximg'}
               onClick={() => setIsOpen(!isOpen)}>
-              <img className={style.questions_img} src="./img/show_button.svg" />
+              <img className={style.questions_img} src="./img/button_with_smuzi.svg" />
             </div>
           </div>
           {isOpen && <div className={style.questions_text}>{quiz.description}</div>}
