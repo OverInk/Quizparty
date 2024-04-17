@@ -19,21 +19,8 @@
   }
 
   &_img {
-    //  padding: 16px;
-    //  background-color: #515151;
-    //  border-radius: 50%;
     width: 24px;
     height: 24px;
-    //  animation: spin 1s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
-    //  transform-origin: center center;
-  }
-  @keyframes spin {
-    0% {
-      transform: rotate(0);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
   }
   &_title {
     font-size: 24px;
